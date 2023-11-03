@@ -1,0 +1,1 @@
+export const backendUrl = "https://academics.newtonschool.co/api/v1";

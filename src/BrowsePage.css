@@ -1,0 +1,512 @@
+/* 
+  .text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .album-card {
+    max-height: 300px;
+    padding: 10px;
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05);
+    background-color: rgb(49, 44, 44); 
+  }
+  
+  .screen-container{
+  margin-left: 7%; 
+  padding: 20px;
+  background-color: rgb(51, 49, 49);
+  }
+
+
+  
+.album-title {
+  font-size: 14px; 
+}
+
+
+.album-title{
+  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 7px;
+  animation: scrollText 5s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+
+
+
+/* .text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.album-card {
+  max-height: 300px; 
+  padding: 10px;
+}
+
+.custom-card {
+  box-shadow: none; 
+  border: none; 
+} */
+
+/* .album-card:hover {
+  transform: scale(1.05);
+  background-color: rgb(22, 21, 21); 
+  box-shadow: 0px 0px 15px rgba(255,255,255,0.5); 
+} */
+
+/* .album-card:active {
+  background-color: rgb(255,0,0); 
+}
+
+.screen-container{
+margin-top: 53px;
+padding: 20px;
+background-color: #1d1c1c;
+}
+
+
+.album-title {
+font-size: 14px; 
+color: white; 
+width: 100%; 
+overflow-x: hidden; 
+}
+
+.album-title.scrolling {
+animation: scrollText 5s linear infinite; 
+} */
+
+/* Styles for the song title with scrolling animation */
+/* .song-title{
+white-space: nowrap;
+text-overflow: ellipsis;
+font-size: 7px;
+color: white; 
+width: 100%;
+overflow-x: hidden; 
+}
+
+.song-title.scrolling {
+animation: scrollText 5s linear infinite; 
+}
+
+@keyframes scrollText {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
+}
+} */
+
+
+
+/* .carousel {
+  overflow: hidden;
+}
+
+.carousel-content {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-item {
+  min-width: 370px; 
+}
+
+.carousel-button {
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+} */
+
+/* .horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+} */
+
+/* older css */
+/* .text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.album-card {
+  max-height: 300px;
+  padding: 10px;
+}
+
+.custom-card {
+  box-shadow: none; 
+  border: none;
+}
+
+.album-card:hover {
+  transform: scale(1.05);
+  background-color: rgb(22, 21, 21); 
+  box-shadow: 0px 0px 15px rgba(255,255,255,0.5); 
+} 
+
+.album-card:active {
+  background-color: rgb(255,0,0); 
+}
+
+.screen-container{
+margin-top: 53px;
+padding: 20px;
+background-color: #1d1c1c;
+}
+
+
+.album-title {
+font-size: 14px;
+color: white; 
+width: 100%; 
+overflow-x: hidden;
+}
+
+.album-title.scrolling {
+animation: scrollText 5s linear infinite; 
+}
+
+.album-card {
+  max-width: 200px; 
+  margin-right: 10px;
+  
+}
+
+
+.small-section .album-card {
+width:100%; 
+}
+
+.medium-section .album-card {
+width:20%; 
+} 
+
+/* .section-heading {
+  cursor: pointer;
+}
+
+.album-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 1em;
+  scrollbar-width: none;
+} 
+
+.album-container::-webkit-scrollbar {
+  display: none; 
+}
+/* 
+.album-container.expanded {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.album {
+  flex: 0 0 auto;
+  width: 200px;
+  margin: 1em;
+}
+
+.album-card.custom-card {
+  background-color: #1d1c1c;
+}
+
+.album-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.section-1 {
+  max-width: 100%; 
+  margin: 0 auto;
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
+
+
+.section-1 .album-image {
+  width: 300px; 
+  height: 250px;
+}
+
+
+.section-1 .album-card{
+  max-width: 450px; 
+  margin-right: 10px; 
+} */
+
+
+
+
+
+
+
+
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%; 
+}
+
+.album-card {
+  padding: 10px;
+}
+
+.custom-card {
+  box-shadow: none; 
+  border: none; 
+}
+
+.album-card:active {
+  background-color: rgb(255,0,0); 
+}
+
+.screen-container{
+margin-top: 53px;
+padding: 20px;
+background-color: #1d1c1c;
+}
+
+.album-image:hover {
+  filter: brightness(80%); /* Adjust the brightness value as needed */
+  transition: filter 0.3s; /* Add a smooth transition for the effect */
+}
+
+/* Add this to your CSS */
+.image-container {
+  position: relative;
+}
+
+
+.play-pause-button {
+  position: absolute;
+  bottom: 10px; /* Adjust the vertical position */
+  right: 10px; /* Adjust the horizontal position */
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 3; /* Start with zero opacity */
+ 
+  
+}
+
+.play-pause-button.visible {
+  opacity: 1;
+
+}
+
+
+.album-image.hover-effect:hover + .play-pause-button.hover-visible {
+  display: inline-block; /* Show the play/pause button on hover */
+}
+
+/* Styles for the album title */
+.album-title {
+color: rgb(247, 245, 245); 
+max-height: 3.2em; /* You can adjust this value to fit your layout */
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 10px;
+font-family: Arial,sans-serif;
+/* animation: scrollText 15s linear infinite;  */
+}
+.album-title-custom {
+  /* font-size: 10px;  */
+}
+
+.song-title {
+  font-size: 16px;
+}
+
+.section-heading {
+  font-size: 20px;
+}
+
+.album-title.scrolling {
+animation: scrollText 8s linear infinite; 
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* You can adjust this value to control the number of lines before scrolling */
+  -webkit-box-orient: vertical;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Scroll to the left */
+  }
+}
+
+.album-card {
+  /* margin-right: 10px;  */
+  /* font-size: small; */
+}
+
+.section-heading {
+  cursor: pointer;
+}
+
+.album-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 1em;
+  scrollbar-width: none;
+}
+
+.album-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.album {
+  flex: 0 0 auto;
+  margin: 1em;
+}
+
+.album-card.custom-card {
+  background-color: #1d1c1c;
+}
+
+.section-1 {
+max-width: 100%; 
+margin: 0 auto;
+/* overflow-x: auto;  */
+/* white-space: nowrap;  */
+}
+
+.section-1 .album-image {
+width: 420px; /* Adjust the width as needed to increase the size of album images */
+height: 300px; /* Adjust the height accordingly */
+border-radius: 5px;
+}
+
+.section-1 .album-card{
+max-width: 420px;
+margin-right: 10px; 
+}
+
+.expanded-album-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 1em;
+width: 100%;
+}
+
+.expanded-album-container .album-image {
+width: 200px; /* Adjust the width as needed */
+height: 200px;
+}
+
+.expanded-album-container .album-card {
+max-width: 250px; /* Adjust the width as needed */
+}
+
+.section-2 {
+margin-right:auto ;
+overflow-x:auto ;
+white-space :nowrap ;
+}
+
+
+.section-2 .album-image, .section-3 .album-image,
+.section-4 .album-image, .section-5 .album-image,
+.section-7 .album-image, .section-8 .album-image,
+.section-9 .album-image, .section-10 .album-image,
+.section-11 .album-image, .section-12 .album-image {
+width :200px ;
+height :200px ;
+border-radius :5px ;
+}
+
+
+.section-2 .album-card, .section-3 .album-card,
+.section-4 .album-card, .section-5 .album-card,
+.section-7 .album-card, .section-8 .album-card,
+.section-9 .album-card, .section-10 .album-card,
+.section-11 .album-card, .section-12 .album-card{
+max-width :220px ;
+margin-right :10px ;
+}
+
+
+.section-3{
+margin-right:auto ;
+overflow-x:auto ;
+white-space :nowrap ;
+}
+
+
+.section-6 .album-image{
+width :250px ;
+height :250px ;
+}
+
+
+.section-6 .album-card{
+width :250px ;
+height :350px ;
+}
+
+
+/* New styles for song title */
+.song-title-custom {
+font-size :16px ; /* Updated font size */
+}
+
+.loading-container {
+  text-align: center;
+  margin-top: 40px; 
+}

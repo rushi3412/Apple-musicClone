@@ -1,0 +1,49 @@
+/* .song-list-item {
+  transition: background-color 0.3s, transform 0.3s; 
+}
+/*  */
+/* song-list-item:hover {
+  background-color: rgb(35, 37, 37); 
+  transform: translateX(10px); 
+} */
+
+.table {
+  border-collapse: collapse;
+}
+
+.table .table-row {
+  border-bottom: solid transparent; /* Remove the white line between rows */
+  
+}
+
+.table .table-cell {
+  border: none; /* Remove the cell borders */
+  
+}
+
+.table-cell div {
+  font-size: 11px;
+}
+
+/* Change the size of the artist names */
+.table-row .artist-names {
+  font-size: 11px;
+}
+
+/* Change the size of the album name */
+.table-row .album-name {
+  font-size: 10px;
+}
+
+.table-row:hover .play-pause-button {
+  opacity: 1;
+}
+
+.play-pause-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity .5s ease;
+}
