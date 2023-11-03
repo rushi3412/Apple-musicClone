@@ -1,39 +1,3 @@
-/* .navbar {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(59, 57, 57);
-    border: 2px solid lightblue;
-    
-  }
-  
- 
-  .music-player-controls {
-    display: flex;
-    align-items: center;
-    margin-left: auto; 
-  }
-  
-  .music-player-symbol {
-    color: white;
-    margin-right: 8px; 
-  }
-  
-  .signin-button {
-    margin-left: 16px; 
-  }
-  
-  .signin-symbol {
-    color: white; 
-  }
-    */
-    /* .signdiv{
-      margin-top: 53px;
-    } */
-
-
     .song-title-name{
       max-width: 100%;
       height: calc(var(--lcd-height, 44px) - 3px);
