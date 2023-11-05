@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 import SongsList from "./SongsList";
@@ -10,6 +10,7 @@ function Sidebar() {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [showSongList, setShowSongList] = useState(false);
+  const searchResultsRef = useRef(null);
 
   const handleSearch = () => {
     console.log("Search Term:", searchTerm);
@@ -28,6 +29,21 @@ function Sidebar() {
       .catch((error) => console.error('Error fetching song data:', error));
       setShowSongList(false);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchResultsRef.current && !searchResultsRef.current.contains(event.target)) {
+        // Click occurred outside the search results container
+        setShowSongList(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside); // Cleanup the event listener
+    };
+  }, []);
 
   return (
     <>
@@ -74,8 +90,11 @@ function Sidebar() {
                 style={{ backgroundColor: '#1d1c1c' }} 
               />
             </form>
-            {/* <SongsList searchResults={searchResults} /> */}
-            {showSongList && <SongsList searchResults={searchResults} />}
+            {showSongList && (
+              <div ref={searchResultsRef} className="song-list-overlay">
+                <SongsList searchResults={searchResults} />
+              </div>
+            )}
             <div className="sidebardetails">
               <div className="details">
                 <svg
